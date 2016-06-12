@@ -1,0 +1,6 @@
+#Chacun son workspace Sublime-text:
+*.sublime-workspace
+
+#Pas de fichiers de compilation :
+*/Outputs/*
+*.log

@@ -1,6 +1,6 @@
 \immediate\write18{makeindex -s nomencl.ist -o Outputs/rapport.nls Outputs/rapport.nlo}
 
-\documentclass[11pt]{article}
+\documentclass[hidelinks,11pt]{article}
 
 \input{includes/packages}
 \include{includes/functions}
@@ -82,6 +82,7 @@
 	\input{chapitres/Annexes/carteReflecteurs}
 	\input{chapitres/Annexes/carteMere}
 	\newpage
+	\input{chapitres/Annexes/dessinsTech}
 	\input{chapitres/Annexes/devis}
 	\input{chapitres/Annexes/gantt}
 	\input{chapitres/Annexes/PERT}

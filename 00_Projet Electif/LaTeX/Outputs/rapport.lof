@@ -32,11 +32,11 @@
 \contentsline {figure}{\numberline {31}{\ignorespaces Plan \IeC {\`a} l'\IeC {\'e}chelle de la piste\relax }}{34}{figure.caption.35}
 \contentsline {figure}{\numberline {32}{\ignorespaces Mod\IeC {\'e}lisation 3D du circuit\relax }}{35}{figure.caption.36}
 \contentsline {figure}{\numberline {33}{\ignorespaces Illustration d'un port "pmod" \textbf {\textit {(source : Digilent)}}\relax }}{36}{figure.caption.37}
-\contentsline {figure}{\numberline {34}{\ignorespaces Illustration d'un connecteur s\IeC {\'e}cable 0.1'' standard \textbf {\textit {(source : Gotronic)}}\relax }}{37}{figure.caption.38}
-\contentsline {figure}{\numberline {35}{\ignorespaces Sch\IeC {\'e}ma de principe d'un r\IeC {\'e}flecteur optique\relax }}{40}{figure.caption.39}
-\contentsline {figure}{\numberline {36}{\ignorespaces Espacement des r\IeC {\'e}flecteurs optiques\relax }}{41}{figure.caption.40}
-\contentsline {figure}{\numberline {37}{\ignorespaces Embase Barrel Jack \textbf {\textit {(source : Conrad.fr)}}\relax }}{41}{figure.caption.41}
-\contentsline {figure}{\numberline {38}{\ignorespaces Sch\IeC {\'e}ma de l'\IeC {\'e}tat d'un signal apr\IeC {\`e}s l'ouverture d'un interrupteur\relax }}{42}{figure.caption.42}
+\contentsline {figure}{\numberline {34}{\ignorespaces Sch\IeC {\'e}ma de l'\IeC {\'e}tat d'un signal apr\IeC {\`e}s l'ouverture d'un interrupteur\relax }}{37}{figure.caption.38}
+\contentsline {figure}{\numberline {35}{\ignorespaces Illustration d'un connecteur s\IeC {\'e}cable 0.1'' standard \textbf {\textit {(source : Gotronic)}}\relax }}{38}{figure.caption.39}
+\contentsline {figure}{\numberline {36}{\ignorespaces Sch\IeC {\'e}ma de principe d'un r\IeC {\'e}flecteur optique\relax }}{41}{figure.caption.40}
+\contentsline {figure}{\numberline {37}{\ignorespaces Espacement des r\IeC {\'e}flecteurs optiques\relax }}{41}{figure.caption.41}
+\contentsline {figure}{\numberline {38}{\ignorespaces Embase Barrel Jack \textbf {\textit {(source : Conrad.fr)}}\relax }}{42}{figure.caption.42}
 \contentsline {figure}{\numberline {39}{\ignorespaces Connecteur femelle HE10-10 \textbf {\textit {(source : Conrad.fr)}}\relax }}{43}{figure.caption.43}
 \contentsline {figure}{\numberline {40}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{44}{figure.caption.44}
 \contentsline {figure}{\numberline {41}{\ignorespaces Rendu de la maquette 3D du robot\relax }}{44}{figure.caption.45}
@@ -56,9 +56,20 @@
 \contentsline {figure}{\numberline {55}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{59}{figure.caption.60}
 \contentsline {figure}{\numberline {56}{\ignorespaces Sch\IeC {\'e}ma du circuit de la carte m\IeC {\`e}re\relax }}{60}{figure.caption.61}
 \contentsline {figure}{\numberline {57}{\ignorespaces Gerbers de la carte m\IeC {\`e}re\relax }}{61}{figure.caption.62}
-\contentsline {figure}{\numberline {58}{\ignorespaces Devis global\relax }}{62}{figure.caption.63}
-\contentsline {figure}{\numberline {59}{\ignorespaces Devis pour un robot\relax }}{63}{figure.caption.64}
-\contentsline {figure}{\numberline {60}{\ignorespaces Devis pour une carte-m\IeC {\`e}re\relax }}{64}{figure.caption.65}
-\contentsline {figure}{\numberline {61}{\ignorespaces Devis pour la carte r\IeC {\'e}flecteurs\relax }}{64}{figure.caption.66}
-\contentsline {figure}{\numberline {62}{\ignorespaces \relax }}{65}{figure.caption.67}
-\contentsline {figure}{\numberline {63}{\ignorespaces Devis pour la carte du circuit\relax }}{65}{figure.caption.68}
+\contentsline {figure}{\numberline {58}{\ignorespaces Structure : chassis arri\IeC {\`e}re\relax }}{62}{figure.caption.63}
+\contentsline {figure}{\numberline {59}{\ignorespaces Structure : chassis avant\relax }}{63}{figure.caption.64}
+\contentsline {figure}{\numberline {60}{\ignorespaces Structure : chassis droit\relax }}{64}{figure.caption.65}
+\contentsline {figure}{\numberline {61}{\ignorespaces Structure : chassis gauche\relax }}{65}{figure.caption.66}
+\contentsline {figure}{\numberline {62}{\ignorespaces Structure : Fond\relax }}{66}{figure.caption.67}
+\contentsline {figure}{\numberline {63}{\ignorespaces Structure : Montant arri\IeC {\`e}re-droit\relax }}{67}{figure.caption.68}
+\contentsline {figure}{\numberline {64}{\ignorespaces Structure : Montant arri\IeC {\`e}re-gauche\relax }}{68}{figure.caption.69}
+\contentsline {figure}{\numberline {65}{\ignorespaces Structure : Montant avant-droit\relax }}{69}{figure.caption.70}
+\contentsline {figure}{\numberline {66}{\ignorespaces Structure : Montant avant-gauche\relax }}{70}{figure.caption.71}
+\contentsline {figure}{\numberline {67}{\ignorespaces Structure : Support Webcam\relax }}{71}{figure.caption.72}
+\contentsline {figure}{\numberline {68}{\ignorespaces Structure : Support Reflecteurs\relax }}{72}{figure.caption.73}
+\contentsline {figure}{\numberline {69}{\ignorespaces Devis global\relax }}{73}{figure.caption.74}
+\contentsline {figure}{\numberline {70}{\ignorespaces Devis pour un robot\relax }}{74}{figure.caption.75}
+\contentsline {figure}{\numberline {71}{\ignorespaces Devis pour une carte-m\IeC {\`e}re\relax }}{75}{figure.caption.76}
+\contentsline {figure}{\numberline {72}{\ignorespaces Devis pour la carte r\IeC {\'e}flecteurs\relax }}{75}{figure.caption.77}
+\contentsline {figure}{\numberline {73}{\ignorespaces \relax }}{76}{figure.caption.78}
+\contentsline {figure}{\numberline {74}{\ignorespaces Devis pour la carte du circuit\relax }}{76}{figure.caption.79}

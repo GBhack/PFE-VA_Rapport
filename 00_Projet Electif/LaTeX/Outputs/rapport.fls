@@ -97,6 +97,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -669,6 +671,11 @@ INPUT ./Graphics/PERT2.png
 INPUT ./Graphics/PERT2.png
 INPUT chapitres/6_suiviProjet.tex
 INPUT chapitres/6_suiviProjet.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
 INPUT chapitres/7_conclusion.tex
 INPUT chapitres/7_conclusion.tex
 INPUT chapitres/Annexes/carteCircuit.tex
@@ -767,11 +774,6 @@ INPUT /home/guillaume/Dropbox/PFE VA/6_Rapport/00_Projet Electif/LaTeX/Outputs/r
 INPUT /home/guillaume/Dropbox/PFE VA/6_Rapport/00_Projet Electif/LaTeX/Outputs/rapport.nls
 INPUT /home/guillaume/Dropbox/PFE VA/6_Rapport/00_Projet Electif/LaTeX/Outputs/rapport.bbl
 INPUT /home/guillaume/Dropbox/PFE VA/6_Rapport/00_Projet Electif/LaTeX/Outputs/rapport.bbl
-INPUT /usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
 INPUT /home/guillaume/Dropbox/PFE VA/6_Rapport/00_Projet Electif/LaTeX/Outputs/rapport.lof
 INPUT /home/guillaume/Dropbox/PFE VA/6_Rapport/00_Projet Electif/LaTeX/Outputs/rapport.lof
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/arev/favbi8t.tfm

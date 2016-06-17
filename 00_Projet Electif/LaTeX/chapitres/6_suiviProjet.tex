@@ -4,4 +4,65 @@ Nous recommandons l'instauration d'un compte-rendu hebdomadaire (qui pourra êtr
 
 Il serait également judicieux de se contraindre à rédiger quotidiennement un journal de travail.\\
 
-Surtout, un tableau partagé permettra de suivre l'avancement "en temps réel" et, si besoin, de réajuster les prévisions et l'allocation des ressources.
+Surtout, un tableau partagé permettra de suivre l'avancement "en temps réel" et, si besoin, de réajuster les prévisions et l'allocation des ressources.\\
+
+Nous avons produit le "code de bonne pratiques" suivant afin d'avoir une référence à laquelle se rapporter au cours du projet:\\
+\begin{adjustwidth}{1cm}{0.5cm}
+	\fbox{\parbox{\linewidth-2\fboxrule-2\fboxsep}{
+	Ce guide de bonnes pratiques est à consulter régulièrement et respecter tout au long du projet.\\
+	Ce guide a vocation à améliorer la productivité et non l'inverse : les protocoles "lourds" et présentant peu d'intérêt sont à proscrire.\\
+
+	\begin{enumerate}
+		\item \textbf{COMMUNICATION :}
+		\begin{itemize}
+			\item \textbf{EMAILS :}\\
+			Pour informations qui doivent rester, et/ou échange avec différents acteurs\\
+			\textbf{Objet :} [PFE VA] - [CATEGORIE] Objet	\textit{(ex: [PFE VA] - [FINANCIER] Dépassement de budget)}\\
+			\textbf{Contenu :} Concis, en "points par points"\\
+			Utiliser les champs "Destinataire, "Copie Carbone" et "Copie Carbone Invisible" à bon escient (Destinataire pour personne directement visée, CC pour acteurs à tenir informés)\\
+			Essayer de répondre en point par point sur la structure du mail initial\\
+
+			\item \textbf{SLACK :}\\
+			Pour communication "temps réel", conversation. Pas de décisions importantes.\\
+			Diviser en canaux par thématique\\
+		\end{itemize}
+
+		\item \textbf{STOCKAGE :}\\
+		Respecter l'architecture en place\\
+		Noms de fichiers doivent être clairs, explicites et concis\\
+		Sauvegardes régulières sur support externe\\
+	\end{enumerate}}}
+\end{adjustwidth}
+\begin{adjustwidth}{1cm}{0.5cm}
+	\fbox{\parbox{\linewidth-2\fboxrule-2\fboxsep}{
+	\begin{enumerate}
+	\setcounter{enumi}{2}
+		\item \textbf{GIT :}\\
+		Toujours commencer session de travail par un pull\\
+		Un commit à chaque "bloc de modification" : ajout d'une fonction, correction d'un bug... Pas de commit sur une modif non testée\\
+		Création d'une branche pour chaque modification "expérimentale". Fusion de la branche si concluante, après concertation.\\
+		Exclure des commits tous les fichiers binaires (sauf illustrations quand utilisées par le code) et tous les fichiers générés (fichiers de compilation...) : git ne doit concerner que les fichiers textes (sauf fichiers nécessaires à la bonne compilation/utilisation du code). => utiliser le .gitignore\\
+		=> un pull doit toujours être suivi d'une recompilation : ne jamais  utiliser un fichier déjà compilé (qui ne doivent de toute façon pas être commit).
+
+		
+		\item \textbf{CODE :}
+		Respect de la convention décrite ici : \url{http://all4dev.libre-entreprise.org/index.php/Conventions_de_syntaxe_en_python}
+		Respect de la convention PEP8
+		Ajout systématique d'un docstring avec description de la fonction (ou classe), des paramètres et du retour.
+
+		\item \textbf{SUIVI :}
+		Utilisation de ProjectLibre pour ajuster le planning et l'avancement en temps réel
+		Un point d'avancement par email 1 fois par semaine avec accomplissements, problèmes rencontrés, besoins éventuels et modifications notables du projet.
+
+		\item \textbf{DOCUMENTATION :}
+		\begin{itemize}
+			\item \textbf{EXISTANTE :}\\
+			Prendre soin de conserver toute la documentation dans le répertoire prévu à cet effet. Veiller à suivre une nomenclature et une organisation simple et explicite.\\
+			Compléter la bibliographie au fur et à mesure via le formulaire dédié.\\
+			\item \textbf{PRODUITE :}\\
+			Au fur et à mesure du développement, utiliser les commentaires et les docstrings pour documenter les programmes.\\
+			Enregistrer dans de simples fichiers textes, ou communiquer par email s'ils doivent être partagés les points à prendre en compte \textit{(ex: Attention à toujours couper le contact avant de charger un programme !)}\\
+			La construction de la documentation livrable ne débutera qu'en fin de projet, quand nous bénéficierons d'une vue d'ensemble.\\
+		\end{itemize}
+	\end{enumerate}}}
+\end{adjustwidth}

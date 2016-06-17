@@ -2,5 +2,8 @@
 *.sublime-workspace
 
 #Pas de fichiers de compilation :
-*/Outputs/*
+Outputs/
 *.log
+*.pdf
+*.aux
+
